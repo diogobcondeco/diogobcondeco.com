@@ -1,6 +1,6 @@
 {
+  "homepage": "https://diogobcondeco.com/",
   "name": "diogobcondeco.com",
-  "homepage": "https://diogothedev.github.io/diogobcondeco.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
