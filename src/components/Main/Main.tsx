@@ -5,8 +5,9 @@ import {
   faGithub,
   faTwitch,
   faDiscord,
+  faTwitter,
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
-
 
 const Main = () => {
   return (
@@ -30,14 +31,15 @@ const Main = () => {
           <div className="mt-4">
             <div className="font-medium text-accent flex justify-center">
               <SocialLink link='https://github.com/diogothedev' icon={faGithub} />
-              <SocialLink link='https://twitch.com/frostvicious' icon={faTwitch} />
-              <SocialLink link='https://discord.gg/' icon={faDiscord} />
+              {/* <SocialLink link='https://twitch.com/frostvicious' icon={faTwitch} />
+              <SocialLink link='https://discord.gg/' icon={faDiscord} /> */}
+              <SocialLink link='https://twitter.com/diogothedev' icon={faTwitter} />
+              <SocialLink link='https://www.linkedin.com/in/diogobcondeco/' icon={faLinkedin} />
             </div>
           </div>
         </div>
       </div>
     </div>
-
   )
 }
 
