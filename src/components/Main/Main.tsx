@@ -3,8 +3,8 @@ import Greeting from '../Greeting/Greeting'
 import SocialLink from '../SocialLink/SocialLink'
 import {
   faGithub,
-  faTwitch,
-  faDiscord,
+  // faTwitch,
+  // faDiscord,
   faTwitter,
   faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
