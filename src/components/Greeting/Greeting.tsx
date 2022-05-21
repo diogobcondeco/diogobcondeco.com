@@ -24,6 +24,7 @@ const Greeting: React.FC = () => {
       setShowSecondGreeting(true);
     }, 2000);
     return () => clearTimeout(timer);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function isBetween(hour: number, first: number, second: number) {
