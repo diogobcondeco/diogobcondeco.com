@@ -30,10 +30,10 @@ const Main = () => {
           <div className="text-md text-accent">Frontend Developer</div>
           <div className="mt-4">
             <div className="font-medium text-accent flex justify-center">
-              <SocialLink link='https://github.com/diogothedev' icon={faGithub} />
+              <SocialLink link='https://github.com/diogobcondeco/' icon={faGithub} />
               {/* <SocialLink link='https://twitch.com/frostvicious' icon={faTwitch} />
               <SocialLink link='https://discord.gg/' icon={faDiscord} /> */}
-              <SocialLink link='https://twitter.com/diogothedev' icon={faTwitter} />
+              <SocialLink link='https://twitter.com/diogobcondeco/' icon={faTwitter} />
               <SocialLink link='https://www.linkedin.com/in/diogobcondeco/' icon={faLinkedin} />
             </div>
           </div>
