@@ -60,7 +60,7 @@ const Greeting: React.FC = () => {
   }
 
   return (
-    <div className="text-2xl sm:text-4xl">
+    <div className="text-xl sm:text-2xl">
       <motion.span
         initial={{ opacity: 1 }}
         animate={{ opacity: showSecondGreeting ? 1 : 0 }}

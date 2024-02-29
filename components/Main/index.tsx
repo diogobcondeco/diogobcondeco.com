@@ -27,9 +27,9 @@ const Main = () => {
       <div className="absolute h-full w-full z-10 flex justify-center items-center">
         <div className="flex flex-col gap-4 items-center">
           <Greeting />
-          <div className="text-xl sm:text-3xl">Frontend Developer</div>
+          <div className="text-lg sm:text-xl">Frontend Developer</div>
           <div>
-            <div className="font-medium flex justify-center gap-6 sm:gap-8">
+            <div className="font-medium flex justify-center gap-5 sm:gap-6">
               <SocialLink
                 link="https://github.com/diogobcondeco/"
                 icon={faGithub}

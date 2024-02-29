@@ -15,7 +15,7 @@ const SocialLink = ({ link, icon }: SocialLinkProps) => {
     <div onClick={handleClick}>
       <FontAwesomeIcon
         icon={icon}
-        className="text-white h-8 sm:h-12 opacity-50 hover:opacity-100 transition-all cursor-pointer"
+        className="text-white h-7 sm:h-10 opacity-50 hover:opacity-100 transition-all cursor-pointer"
       />
     </div>
   );
