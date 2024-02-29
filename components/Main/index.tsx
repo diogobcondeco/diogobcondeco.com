@@ -25,11 +25,11 @@ const Main = () => {
         <div className="absolute h-full w-full opacity-80 bg-background z-10"></div>
       </div>
       <div className="absolute h-full w-full z-10 flex justify-center items-center">
-        <div className="flex flex-col gap-4 items-center">
+        <div className="flex flex-col items-center">
           <Greeting />
-          <div className="text-lg sm:text-xl">Frontend Developer</div>
+          <div className="mt-2 text-lg sm:text-xl">Frontend Developer</div>
           <div>
-            <div className="font-medium flex justify-center gap-5 sm:gap-6">
+            <div className="mt-4 font-medium flex justify-center gap-5 sm:gap-6">
               <SocialLink
                 link="https://github.com/diogobcondeco/"
                 icon={faGithub}
