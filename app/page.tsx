@@ -1,7 +1,11 @@
-export default function Home() {
-  const test = "test";
-  const another = "another";
-  const thirdwheel = "third";
+"use client";
 
-  return <div>Hello World, diogo is here.</div>;
+import Main from "@/components/Main";
+
+export default function Home() {
+  return (
+    <>
+      <Main />
+    </>
+  );
 }

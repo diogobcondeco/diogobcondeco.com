@@ -1,5 +1,0 @@
-# Run code formatting on all staged files
-git diff --cached --name-only | xargs npm run prepare:commit
-
-# Add only the changed files to the staging area
-git diff --cached --name-only | xargs git add
