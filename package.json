@@ -7,12 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare:commit": "yarn lint && yarn format"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint && npm run format"
-    }
+  "lint-staged": {
+    "**/*.{ts,tsx}": [
+      "npm run prepare:commit"
+    ]
   },
   "dependencies": {
     "next": "14.1.0",
