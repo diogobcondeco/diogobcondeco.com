@@ -1,5 +1,5 @@
 # Run code formatting
-npm run format
+npm run prepare:commit
 
 # Add only the changed files to the staging area
 git diff --cached --name-only | xargs git add
