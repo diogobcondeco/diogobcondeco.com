@@ -1,30 +1,29 @@
-import React, { useEffect, useState } from 'react'
-import detectBrowserLanguage from 'detect-browser-language'
-import { SwitchTransition, CSSTransition } from 'react-transition-group'
-import './Greeting.scss'
-import { greetings } from '../../lang'
+import React, { useEffect, useState } from "react";
+import detectBrowserLanguage from "detect-browser-language";
+import { motion } from "framer-motion";
+import { greetings } from "./lang";
 
-interface GreetingItem {
+type GreetingItem = {
   lang: string;
   message: {
     EARLY_MORNING: string;
     MORNING: string;
     AFTERNOON: string;
     NIGHT: string;
-  }
-}
+  };
+};
 
 const Greeting: React.FC = () => {
-  const [greeting, setGreeting] = useState<string>("");
+  const [greeting, setGreeting] = useState<string>("Hello");
   const [showSecondGreeting, setShowSecondGreeting] = useState<boolean>(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       defineCorrectMessage();
       setShowSecondGreeting(true);
-    }, 2000);
+    }, 1000);
     return () => clearTimeout(timer);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function isBetween(hour: number, first: number, second: number) {
@@ -49,33 +48,29 @@ const Greeting: React.FC = () => {
     const localeLanguage: string = detectBrowserLanguage().toLowerCase();
     const nowDate: Date = new Date();
     const nowHour: number = nowDate.getHours();
-    const selectedGreeting = greetings.filter(
-      item => localeLanguage.substring(0, 2) === item.lang.substring(0, 2)
+    const selectedGreeting = greetings.find(
+      (item) => localeLanguage.substring(0, 2) === item.lang.substring(0, 2),
     );
-    selectTime(selectedGreeting[0], nowHour);
+
+    if (selectedGreeting) {
+      selectTime(selectedGreeting, nowHour);
+    } else {
+      setGreeting("Hello");
+    }
   }
 
   return (
-    <div>
-      <h1 className="title">
-        <SwitchTransition mode="out-in">
-          <CSSTransition
-            key={showSecondGreeting}
-            addEndListener={(node: { addEventListener: (arg0: string, arg1: any, arg2: boolean) => void; }, done: any) => {
-              node.addEventListener("transitionend", done, false);
-            }}
-            classNames="fade"
-          >
-            <div>
-              <span className="greeting">
-                {!showSecondGreeting ? "Hello," : greeting + ","}
-              </span> Diogo here.
-            </div>
-          </CSSTransition>
-        </SwitchTransition>
-      </h1>
+    <div className="text-xl sm:text-2xl">
+      <motion.span
+        initial={{ opacity: 1 }}
+        animate={{ opacity: showSecondGreeting ? 1 : 0 }}
+        transition={{ duration: 1 }}
+      >
+        {greeting}
+      </motion.span>
+      <span>, Diogo here.</span>
     </div>
-  )
-}
+  );
+};
 
-export default Greeting
+export default Greeting;
