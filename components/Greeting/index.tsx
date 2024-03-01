@@ -21,7 +21,7 @@ const Greeting: React.FC = () => {
     const timer = setTimeout(() => {
       defineCorrectMessage();
       setShowSecondGreeting(true);
-    }, 1400);
+    }, 1500);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -64,7 +64,7 @@ const Greeting: React.FC = () => {
       <motion.span
         initial={{ opacity: 1 }}
         animate={{ opacity: showSecondGreeting ? 1 : 0 }}
-        transition={{ duration: 1, delay: 0.4 }}
+        transition={{ duration: 1, delay: 0.5 }}
       >
         {greeting}
       </motion.span>
