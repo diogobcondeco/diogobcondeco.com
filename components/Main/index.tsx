@@ -27,7 +27,7 @@ const Main = () => {
       <div className="absolute h-full w-full z-10 flex justify-center items-center">
         <div className="flex flex-col items-center">
           <Greeting />
-          <div className="mt-2 text-lg sm:text-xl">Frontend Developer</div>
+          <div className="mt-2 text-md sm:text-lg">Frontend Developer</div>
           <div>
             <div className="mt-4 font-medium flex justify-center gap-5 sm:gap-6">
               <SocialLink
