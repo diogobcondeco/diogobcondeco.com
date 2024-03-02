@@ -46,7 +46,7 @@ const Education = () => {
             <li>Major in Computer Science</li>
             <li>Minor in Networks & Security</li>
             <li>Minor in Mobile Applications</li>
-            <li>Science & Engineering Dean's List - 2019 & 2021</li>
+            <li>Science & Engineering Dean&apos;s List - 2019 & 2021</li>
           </ul>
         </div>
       </div>
