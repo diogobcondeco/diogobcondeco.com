@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
+import ActiveSectionContextProvider from "@/context/active-section-context";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -22,8 +23,10 @@ export default function RootLayout({
       <body
         className={`${nunito.className} bg-gray-50 text-gray-950 relative dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        {children}
-        <Toaster position="top-right" />
+        <ActiveSectionContextProvider>
+          {children}
+          <Toaster position="top-right" />
+        </ActiveSectionContextProvider>
         <Analytics />
         <SpeedInsights />
       </body>
