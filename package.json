@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@iconify/react": "^4.1.1",
-    "@react-email/components": "0.0.15",
-    "@react-email/tailwind": "0.0.14",
+    "@react-email/components": "^0.0.15",
+    "@react-email/tailwind": "^0.0.14",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
     "@vercel/analytics": "^1.2.2",

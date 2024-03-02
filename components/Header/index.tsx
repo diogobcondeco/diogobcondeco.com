@@ -35,7 +35,7 @@ const Header = () => {
                   {
                     "text-gray-950 dark:text-white":
                       activeSection === link.name,
-                  },
+                  }
                 )}
                 href={link.hash}
                 onClick={() => {
