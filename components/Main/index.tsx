@@ -45,7 +45,7 @@ const Main = () => {
                 icon={faLinkedin}
               />
               <SocialLink
-                link="https://drive.google.com/file/d/1HYoU2bt5HLD67oL7sMsf9lzXHJ1_rKON/view?usp=sharing"
+                link="https://drive.google.com/file/d/1wr064bFDBPI5XRdcPPM9s1YtTEeDC-Dl/view?usp=sharing"
                 icon={faGoogleDrive}
               />
             </div>
