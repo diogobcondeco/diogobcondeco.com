@@ -10,7 +10,6 @@ import taskManagerImg from "@/public/task-manager.png";
 import familyTreeImg from "@/public/bfsproject.jpg";
 import binaryGameImg from "@/public//binary-game.png";
 import { Link, Skill } from "./types";
-
 export const links: Link[] = [
   {
     name: "Home",
