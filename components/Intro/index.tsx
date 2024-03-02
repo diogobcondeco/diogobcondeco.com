@@ -66,7 +66,7 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I&apos;m Diogo.</span> I&apos;m a{" "}
-        <span className="font-bold">frontend engineer</span>
+        <span className="font-bold">software engineer</span>
         {/* at{" "}
         <span className="font-bold">The University of Queensland</span> */}
         . I spend my day working on web apps with TypeScript, React.js and
