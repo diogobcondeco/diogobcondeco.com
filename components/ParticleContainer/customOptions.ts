@@ -68,7 +68,7 @@ export const customOptions = {
       },
     },
     number: {
-      value: 80,
+      value: 200, // default 80
       density: {
         enable: true,
         value_area: 800,
