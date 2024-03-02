@@ -8,7 +8,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithub, FaGithubSquare, FaFilePdf } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-// import ParticleContainer from "../ParticleContainer";
+import ParticleContainer from "../ParticleContainer";
 import githubpicture from "@/public/githubpicture.jpg";
 
 const Intro = () => {
@@ -19,9 +19,10 @@ const Intro = () => {
     <section
       ref={ref}
       id="home"
+      // remove bg-gray-900 when particles finally work
       className="mb-16 sm:mb-0 text-center scroll-mt-[100rem] particles-section pt-28 pb-14 sm:pt-36 sm:pb-18 w-full px-4"
     >
-      {/* <ParticleContainer /> */}
+      <ParticleContainer />
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
