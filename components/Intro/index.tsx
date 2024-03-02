@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { FaGithub, FaGithubSquare, FaFilePdf } from "react-icons/fa";
+import { FaGithub, FaGithubSquare, FaFilePdf, FaTwitter } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "../ParticleContainer";
@@ -81,31 +81,61 @@ const Intro = () => {
           delay: 0.1,
         }}
       >
-        <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
-          href="https://github.com/diogobcondeco"
-          target="_blank"
-        >
-          GitHub <FaGithub className="opacity-70" />
-        </a>
+        <div className="flex flex-wrap justify-center sm:justify-start gap-4 sm:gap-4">
+          <a
+            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+            href="https://github.com/diogobcondeco"
+            target="_blank"
+          >
+            {/* GitHub <FaGithub className="opacity-70" /> */}
+            GitHub <FaGithub />
+          </a>
 
-        <a
+          {/* <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
           href="https://www.linkedin.com/in/diogobcondeco/"
           target="_blank"
         >
           <span className="opacity-70">LinkedIn</span>
           <BsLinkedin className="opacity-70" />
-        </a>
+        </a> */}
 
-        {/* <a
+          <a
+            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+            href="https://www.linkedin.com/in/diogobcondeco/"
+            target="_blank"
+          >
+            {/* LinkedIn <BsLinkedin className="opacity-70" /> */}
+            LinkedIn <BsLinkedin />
+          </a>
+
+          <a
+            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+            href="https://twitter.com/diogobcondeco/"
+            target="_blank"
+          >
+            {/* Twitter <FaTwitter className="opacity-70" /> */}
+            Twitter <FaTwitter />
+          </a>
+
+          <a
+            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack text-gray-950"
+            href="resume.pdf"
+            target="_blank"
+          >
+            {/* Resume <FaFilePdf className="opacity-70" /> */}
+            Resume <FaFilePdf />
+          </a>
+
+          {/* <a
           className="group bg-gray-950 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
-          href="https://www.linkedin.com/in/diogobcondeco/"
+          href="curriculum.pdf"
           target="_blank"
         >
           <span className="opacity-70">Curriculum</span>
           <FaFilePdf className="opacity-70" />
         </a> */}
+        </div>
       </motion.div>
     </section>
   );
