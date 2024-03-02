@@ -23,7 +23,6 @@ const ParticleContainer = () => {
         done={init}
         customOptions={customOptions}
       />
-      ;
     </>
   );
 };
