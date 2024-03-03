@@ -39,7 +39,7 @@ const Experience = () => {
                       : "0.4rem solid rgba(255, 255, 255, 0.5)",
                 }}
                 date={item.date}
-                dateClassName={"lg:mx-2"}
+                dateClassName={"vd:mx-2"}
                 icon={item.icon}
                 iconStyle={{
                   // background: theme === "light" ? "white" : "#1d2432",

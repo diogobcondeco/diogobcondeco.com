@@ -153,22 +153,22 @@ export const skillsData: Skill[] = [
     name: "React",
     icon: "logos:react",
   },
-  {
-    name: "Vue",
-    icon: "logos:vue",
-  },
-  {
-    name: "Angular",
-    icon: "vscode-icons:file-type-angular",
-  },
+  // {
+  //   name: "Vue",
+  //   icon: "logos:vue",
+  // },
+  // {
+  //   name: "Angular",
+  //   icon: "vscode-icons:file-type-angular",
+  // },
   {
     name: "Node.js",
     icon: "logos:nodejs-icon",
   },
-  {
-    name: "PHP",
-    icon: "logos:php",
-  },
+  // {
+  //   name: "PHP",
+  //   icon: "logos:php",
+  // },
   // {
   //   name: "Laravel",
   //   icon: "logos:laravel",
@@ -181,34 +181,34 @@ export const skillsData: Skill[] = [
     name: "Python",
     icon: "logos:python",
   },
+  // {
+  //   name: "Java",
+  //   icon: "logos:java",
+  // },
+  // {
+  //   name: "Swift",
+  //   icon: "logos:swift",
+  // },
+  // {
+  //   name: "HTML",
+  //   icon: "vscode-icons:file-type-html",
+  // },
+  // {
+  //   name: "CSS",
+  //   icon: "vscode-icons:file-type-css",
+  // },
   {
-    name: "Java",
-    icon: "logos:java",
-  },
-  {
-    name: "Swift",
-    icon: "logos:swift",
-  },
-  {
-    name: "HTML",
-    icon: "vscode-icons:file-type-html",
-  },
-  {
-    name: "CSS",
-    icon: "vscode-icons:file-type-css",
-  },
-  {
-    name: "SCSS",
+    name: "Sass",
     icon: "logos:sass",
   },
   {
     name: "Tailwind CSS",
     icon: "logos:tailwindcss-icon",
   },
-  {
-    name: "Styled Components",
-    icon: "file-icons:styledcomponents",
-  },
+  // {
+  //   name: "Styled Components",
+  //   icon: "file-icons:styledcomponents",
+  // },
   {
     name: "Git",
     icon: "logos:git-icon",
@@ -221,10 +221,10 @@ export const skillsData: Skill[] = [
     name: "Next.js",
     icon: "devicon-plain:nextjs",
   },
-  {
-    name: "Nuxt.js",
-    icon: "vscode-icons:file-type-nuxt",
-  },
+  // {
+  //   name: "Nuxt.js",
+  //   icon: "vscode-icons:file-type-nuxt",
+  // },
   {
     name: "Express.js",
     icon: "simple-icons:express",
@@ -233,10 +233,10 @@ export const skillsData: Skill[] = [
     name: "Django",
     icon: "logos:django-icon",
   },
-  {
-    name: "Flask",
-    icon: "simple-icons:flask",
-  },
+  // {
+  //   name: "Flask",
+  //   icon: "simple-icons:flask",
+  // },
   {
     name: "MySQL",
     icon: "logos:mysql",
@@ -257,18 +257,18 @@ export const skillsData: Skill[] = [
     name: "Prisma",
     icon: "simple-icons:prisma",
   },
-  {
-    name: "Firebase",
-    icon: "logos:firebase",
-  },
+  // {
+  //   name: "Firebase",
+  //   icon: "logos:firebase",
+  // },
   {
     name: "Linux",
     icon: "flat-color-icons:linux",
   },
-  {
-    name: "MacOS",
-    icon: "wpf:macos",
-  },
+  // {
+  //   name: "MacOS",
+  //   icon: "wpf:macos",
+  // },
   // {
   //   name: "AWS",
   //   icon: "logos:aws",
@@ -293,34 +293,34 @@ export const skillsData: Skill[] = [
     name: "Vercel",
     icon: "ion:logo-vercel",
   },
-  {
-    name: "Webpack",
-    icon: "logos:webpack",
-  },
-  {
-    name: "Vite",
-    icon: "logos:vitejs",
-  },
+  // {
+  //   name: "Webpack",
+  //   icon: "logos:webpack",
+  // },
+  // {
+  //   name: "Vite",
+  //   icon: "logos:vitejs",
+  // },
   {
     name: "Jest",
     icon: "logos:jest",
   },
-  {
-    name: "Vitest",
-    icon: "logos:vitest",
-  },
-  {
-    name: "Jira",
-    icon: "logos:jira",
-  },
+  // {
+  //   name: "Vitest",
+  //   icon: "logos:vitest",
+  // },
+  // {
+  //   name: "Jira",
+  //   icon: "logos:jira",
+  // },
   {
     name: "Redux",
     icon: "logos:redux",
   },
-  {
-    name: "Socket.io",
-    icon: "logos:socket-io",
-  },
+  // {
+  //   name: "Socket.io",
+  //   icon: "logos:socket-io",
+  // },
   {
     name: "GraphQL",
     icon: "logos:graphql",
@@ -329,38 +329,38 @@ export const skillsData: Skill[] = [
     name: "Postman",
     icon: "devicon:postman",
   },
-  {
-    name: "Jupyter",
-    icon: "logos:jupyter",
-  },
-  {
-    name: "VS Code",
-    icon: "devicon:vscode",
-  },
-  {
-    name: "Vim",
-    icon: "logos:vim",
-  },
-  {
-    name: "Xcode",
-    icon: "logos:xcode",
-  },
-  {
-    name: "NumPy",
-    icon: "logos:numpy",
-  },
-  {
-    name: "Seaborn",
-    icon: "logos:seaborn-icon",
-  },
-  {
-    name: "Pandas",
-    icon: "simple-icons:pandas",
-  },
-  {
-    name: "Matplotlib",
-    icon: "devicon-plain:matplotlib",
-  },
+  // {
+  //   name: "Jupyter",
+  //   icon: "logos:jupyter",
+  // },
+  // {
+  //   name: "VS Code",
+  //   icon: "devicon:vscode",
+  // },
+  // {
+  //   name: "Vim",
+  //   icon: "logos:vim",
+  // },
+  // {
+  //   name: "Xcode",
+  //   icon: "logos:xcode",
+  // },
+  // {
+  //   name: "NumPy",
+  //   icon: "logos:numpy",
+  // },
+  // {
+  //   name: "Seaborn",
+  //   icon: "logos:seaborn-icon",
+  // },
+  // {
+  //   name: "Pandas",
+  //   icon: "simple-icons:pandas",
+  // },
+  // {
+  //   name: "Matplotlib",
+  //   icon: "devicon-plain:matplotlib",
+  // },
   // {
   //   name: "Shopify",
   //   icon: "logos:shopify",

@@ -14,6 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens: {
+      vd: "1170px", // size based on vertical line package
+    },
   },
   plugins: [],
   darkMode: "class",
