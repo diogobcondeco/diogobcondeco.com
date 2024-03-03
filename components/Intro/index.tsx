@@ -20,7 +20,6 @@ const Intro = () => {
     <section
       ref={ref}
       id="home"
-      // remove bg-gray-900 when particles finally work
       className="mb-16 sm:mb-0 text-center scroll-mt-[100rem] particles-section pt-28 pb-14 sm:pt-36 sm:pb-18 w-full px-4"
     >
       <ParticleContainer />
