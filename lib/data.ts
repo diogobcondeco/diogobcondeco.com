@@ -222,6 +222,10 @@ export const skillsData: Skill[] = [
     icon: "devicon-plain:nextjs",
   },
   {
+    name: "Nuxt.js",
+    icon: "vscode-icons:file-type-nuxt",
+  },
+  {
     name: "Express.js",
     icon: "simple-icons:express",
   },
@@ -252,6 +256,10 @@ export const skillsData: Skill[] = [
   {
     name: "Prisma",
     icon: "simple-icons:prisma",
+  },
+  {
+    name: "Firebase",
+    icon: "logos:firebase",
   },
   {
     name: "Linux",
@@ -332,6 +340,26 @@ export const skillsData: Skill[] = [
   {
     name: "Vim",
     icon: "logos:vim",
+  },
+  {
+    name: "Xcode",
+    icon: "logos:xcode",
+  },
+  {
+    name: "NumPy",
+    icon: "logos:numpy",
+  },
+  {
+    name: "Seaborn",
+    icon: "logos:seaborn-icon",
+  },
+  {
+    name: "Pandas",
+    icon: "simple-icons:pandas",
+  },
+  {
+    name: "Matplotlib",
+    icon: "devicon-plain:matplotlib",
   },
   // {
   //   name: "Shopify",
