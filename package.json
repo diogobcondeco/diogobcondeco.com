@@ -30,7 +30,8 @@
     "react-intersection-observer": "^9.8.1",
     "react-vertical-timeline-component": "^3.0.0",
     "resend": "^3.2.0",
-    "tsparticles": "^3.3.0"
+    "tsparticles": "^3.3.0",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/node": "^20",

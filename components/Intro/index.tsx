@@ -10,6 +10,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "../ParticleContainer";
 import githubpicture from "@/public/githubpicture.jpg";
+import TypeAnimation from "../TypeAnimation";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
@@ -65,11 +66,14 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I&apos;m Diogo.</span> I&apos;m a{" "}
-        <span className="font-bold">software engineer</span>
+        <span className="font-bold">Hi, I&apos;m Diogo.</span>
+        <div className="flex gap-2 justify-center font-bold">
+          <span>I&apos;m a</span>
+          <TypeAnimation />
+        </div>
         {/* at{" "}
         <span className="font-bold">The University of Queensland</span> */}
-        . I spend my day working on web apps with TypeScript, React.js and
+        I spend my day working on web apps with TypeScript, React.js and
         Next.js.
       </motion.h1>
 
