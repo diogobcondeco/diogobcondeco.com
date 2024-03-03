@@ -154,6 +154,14 @@ export const skillsData: Skill[] = [
     icon: "logos:react",
   },
   {
+    name: "Vue",
+    icon: "logos:vue",
+  },
+  {
+    name: "Angular",
+    icon: "vscode-icons:file-type-angular",
+  },
+  {
     name: "Node.js",
     icon: "logos:nodejs-icon",
   },
@@ -178,6 +186,10 @@ export const skillsData: Skill[] = [
     icon: "logos:java",
   },
   {
+    name: "Swift",
+    icon: "logos:swift",
+  },
+  {
     name: "HTML",
     icon: "vscode-icons:file-type-html",
   },
@@ -190,16 +202,64 @@ export const skillsData: Skill[] = [
     icon: "logos:sass",
   },
   {
+    name: "Tailwind CSS",
+    icon: "logos:tailwindcss-icon",
+  },
+  {
+    name: "Styled Components",
+    icon: "file-icons:styledcomponents",
+  },
+  {
     name: "Git",
     icon: "logos:git-icon",
+  },
+  {
+    name: "GitHub",
+    icon: "mdi:github",
+  },
+  {
+    name: "Next.js",
+    icon: "devicon-plain:nextjs",
+  },
+  {
+    name: "Express.js",
+    icon: "simple-icons:express",
+  },
+  {
+    name: "Django",
+    icon: "logos:django-icon",
+  },
+  {
+    name: "Flask",
+    icon: "simple-icons:flask",
   },
   {
     name: "MySQL",
     icon: "logos:mysql",
   },
   {
+    name: "MongoDB",
+    icon: "devicon:mongodb",
+  },
+  {
+    name: "PostgreSQL",
+    icon: "logos:postgresql",
+  },
+  {
+    name: "SQLite",
+    icon: "devicon:sqlite",
+  },
+  {
+    name: "Prisma",
+    icon: "simple-icons:prisma",
+  },
+  {
     name: "Linux",
     icon: "flat-color-icons:linux",
+  },
+  {
+    name: "MacOS",
+    icon: "wpf:macos",
   },
   // {
   //   name: "AWS",
@@ -210,8 +270,68 @@ export const skillsData: Skill[] = [
     icon: "logos:docker-icon",
   },
   {
+    name: "Kubernetes",
+    icon: "devicon:kubernetes",
+  },
+  {
+    name: "Nginx",
+    icon: "logos:nginx",
+  },
+  {
     name: "Jenkins",
     icon: "devicon:jenkins",
+  },
+  {
+    name: "Vercel",
+    icon: "ion:logo-vercel",
+  },
+  {
+    name: "Webpack",
+    icon: "logos:webpack",
+  },
+  {
+    name: "Vite",
+    icon: "logos:vitejs",
+  },
+  {
+    name: "Jest",
+    icon: "logos:jest",
+  },
+  {
+    name: "Vitest",
+    icon: "logos:vitest",
+  },
+  {
+    name: "Jira",
+    icon: "logos:jira",
+  },
+  {
+    name: "Redux",
+    icon: "logos:redux",
+  },
+  {
+    name: "Socket.io",
+    icon: "logos:socket-io",
+  },
+  {
+    name: "GraphQL",
+    icon: "logos:graphql",
+  },
+  {
+    name: "Postman",
+    icon: "devicon:postman",
+  },
+  {
+    name: "Jupyter",
+    icon: "logos:jupyter",
+  },
+  {
+    name: "VS Code",
+    icon: "devicon:vscode",
+  },
+  {
+    name: "Vim",
+    icon: "logos:vim",
   },
   // {
   //   name: "Shopify",
