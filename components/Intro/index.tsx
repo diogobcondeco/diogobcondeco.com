@@ -5,7 +5,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { FaGithub, FaGithubSquare, FaFilePdf, FaTwitter } from "react-icons/fa";
+import {
+  FaGithub,
+  FaGithubSquare,
+  FaFilePdf,
+  FaTwitter,
+  FaDownload,
+} from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import ParticleContainer from "../ParticleContainer";
@@ -127,7 +133,7 @@ const Intro = () => {
             target="_blank"
           >
             {/* Resume <FaFilePdf className="opacity-70" /> */}
-            Resume <FaFilePdf />
+            Resume <FaDownload />
           </a>
 
           {/* <a
