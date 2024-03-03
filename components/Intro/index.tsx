@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -21,14 +21,15 @@ import TypeAnimation from "../TypeAnimation";
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const [loading, setLoading] = useState(true);
 
   return (
     <section
       ref={ref}
       id="home"
-      className="mb-16 sm:mb-0 text-center scroll-mt-[100rem] particles-section pt-28 pb-14 sm:pt-36 sm:pb-18 w-full px-4"
+      className={`${loading ? "bg-[#111827]" : ""} h-dvh sm:h-auto mb-16 sm:mb-0 text-center scroll-mt-[100rem] particles-section pt-28 pb-14 sm:pt-36 sm:pb-18 w-full px-4`}
     >
-      <ParticleContainer />
+      <ParticleContainer setLoading={setLoading} />
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
