@@ -277,14 +277,14 @@ export const skillsData: Skill[] = [
     name: "Docker",
     icon: "logos:docker-icon",
   },
-  {
-    name: "Kubernetes",
-    icon: "devicon:kubernetes",
-  },
-  {
-    name: "Nginx",
-    icon: "logos:nginx",
-  },
+  // {
+  //   name: "Kubernetes",
+  //   icon: "devicon:kubernetes",
+  // },
+  // {
+  //   name: "Nginx",
+  //   icon: "logos:nginx",
+  // },
   {
     name: "Jenkins",
     icon: "devicon:jenkins",
