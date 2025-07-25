@@ -371,11 +371,21 @@ export const experiencesData: Experience[] = [
   {
     title: "Frontend Developer",
     location: "Mindera - Remote - Full-time",
+    project: "Kingfisher",
+    description:
+      "React.js, Redux, Jest, JavaScript, CSS, Git, Agile, Jira, Jenkins, TypeScript, Tailwind CSS, Styled Components, Vitest, Kanban, Scrum, Remix",
+    icon: React.createElement(CgWorkAlt),
+    date: "November 2024 - Present",
+    type: "work",
+  },
+  {
+    title: "Frontend Developer",
+    location: "Mindera - Remote - Full-time",
     project: "Vodafone",
     description:
       "React.js, Redux, Jest, JavaScript, CSS, Git, Agile, Jira, Jenkins, TypeScript, Tailwind CSS, Styled Components, Vitest, Kanban, Scrum",
     icon: React.createElement(CgWorkAlt),
-    date: "August 2023 - Present",
+    date: "August 2023 - November 2024",
     type: "work",
   },
   {
